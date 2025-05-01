@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Plan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="line-up">
+        <ul>
+            <li><strong><em><a href="index.html">Carlota Haro Haro</a></em></strong></li>
+            <li>Artworks</li>
+            <li>Social</li>
+            <li><a href="about.html">About Me</a></li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="dropdowns">
+        <div class="dropdown-header" onclick="togglePDF('pdfContainer1')">Creative Connections</div>
+        <div class="dropdown-header" onclick="togglePDF('pdfContainer2')">Rubric</div>
+    </div>
+    <div id="pdfContainer1" class="pdf-preview">
+        <iframe src="files/Blank Hand Drawn Lesson Plan.pdf" title="Creative Commons"></iframe>
+        <img src="images/example-project.png" alt="example project">
+        <img src="images/example-project-diagram.png" alt="example project diagram">
+    </div>
+    <div id="pdfContainer2" class="pdf-preview-side-by-side">
+        <iframe src="files/art project rubric.pdf" title="Rubric"></iframe>
+        <a href="https://www.canva.com/" target="_blank"><img src="images/Constructive_Feedback_Poster_in_Colorful_Geometric_Style.png" alt="Constructive feedback poster"></a>
+    </div>
+</body>
+<script src="./javascript.js"></script>
+</html>
